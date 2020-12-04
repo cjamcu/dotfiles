@@ -10,6 +10,9 @@ alias ~="cd ~"
 # Open Develop Folder
 alias d="cd ~/Develop && open ."
 
+#Open Simulator Ios
+alias ios="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
+
 
 # Git
 alias gaa="git add -A"
