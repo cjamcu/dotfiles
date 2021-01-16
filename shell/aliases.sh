@@ -7,13 +7,6 @@ alias ll="ls -l"
 alias la="ls -la"
 alias ~="cd ~"
 
-# Open Develop Folder
-alias d="cd ~/Develop && open ."
-
-#Open Simulator Ios
-alias ios="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
-
-
 # Git
 alias gaa="git add -A"
 alias gc="dot git commit"
@@ -28,13 +21,11 @@ alias gpl="git pull --rebase --autostash"
 alias gb="git branch"
 alias gl="dot git pretty-log"
 
+
+alias dc='dot docker connect'
+
 # Utils
 alias k='kill -9'
 alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
-
-# IP addresses
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias localip="ipconfig getifaddr en0"
-alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
