@@ -24,6 +24,11 @@ alias gl="dot git pretty-log"
 
 alias dc='dot docker connect'
 
+# Flutter Alias
+alias fb='flutter pub run build_runner build --delete-conflicting-outputs'
+alias fig='flutter pub run intl_utils:generate'
+
+
 # Utils
 alias k='kill -9'
 alias i.='(idea $PWD &>/dev/null &)'
